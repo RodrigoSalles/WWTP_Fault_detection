@@ -6,7 +6,7 @@ wastewater treatment plant (WWTP).
 ## Table of Contents
 * [General Information](#general-information)
 * [Technologies Used](#technologies-used)
-* [Screenshots](#screenshots)
+* [Results](#Results)
 * [Setup](#setup)
 * [Usage](#usage)
 * [Project Status](#project-status)
@@ -37,9 +37,12 @@ wastewater treatment plant (WWTP).
 - Benchmark Simulation Model no. 2 (BSM2)
 
 
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+## Results
+* Fault Detection Result Example - Convolutional Autoencoder
+<img src="Figures/f5.png"  width="800" height="300">
+
+* Fault Detection Result Example - Convolutional Autoencoder - Drift fault.
+<img src="Figures/f6.png"  width="800" height="300">
 
 
 ## Setup
