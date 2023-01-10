@@ -19,12 +19,17 @@ wastewater treatment plant (WWTP).
 
 ## General Information
 - This work originated a paper that was presented at the 7th Workshop on Data Science for Social Good - [SoGood 2022](https://sites.google.com/view/ecmlpkddsogood2022/home?pli=1), 19-23 September 2022, in Grenoble, France.
-- The objective of this work is to develop a failure detection system for the dissolved oxygen sensor of a WWTP biological reactor.
+- The objective of this work is to develop a fault detection system for the dissolved oxygen sensor of a WWTP biological reactor.
 - ANN models used for fault detection:
    * Convolutional Autoencoder
    * Long short term memory (LSTM)
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Faults implemented for autoencoder testing:
+   * Drift 
+   * Bias
+   * Precision degradation
+   * Spike
+   * Stuck
+
 
 
 
