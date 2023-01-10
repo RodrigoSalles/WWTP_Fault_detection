@@ -1,12 +1,11 @@
 # Fault Detection in Wastewater Treatment Plants: Application of Autoencoders with Streaming Data
-The objective of this work is to use Artificial Neural Networks, more specifically Autoencoders, to design a fault 
+The objective of this work is to use Artificial Neural Networks (ANN), more specifically Autoencoders, to design a fault 
 detection system for the dissolved oxygen (DO) sensor, present in the aeration system of the biological reactor of a 
 wastewater treatment plant (WWTP).
 
 ## Table of Contents
 * [General Information](#general-information)
 * [Technologies Used](#technologies-used)
-* [Features](#features)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
 * [Usage](#usage)
@@ -19,7 +18,7 @@ wastewater treatment plant (WWTP).
 
 ## General Information
 - This work originated a paper that was presented at the 7th Workshop on Data Science for Social Good - [SoGood 2022](https://sites.google.com/view/ecmlpkddsogood2022/home?pli=1), 19-23 September 2022, in Grenoble, France.
-- The objective of this work is to develop a fault detection system for the dissolved oxygen sensor of a WWTP biological reactor.
+- The objective of this work is to develop a fault detection system for the DO sensor of a WWTP biological reactor.
 - ANN models used for fault detection:
    * Convolutional Autoencoder
    * Long short term memory (LSTM)
@@ -31,19 +30,11 @@ wastewater treatment plant (WWTP).
    * Stuck
 
 
-
-
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
-
-
-## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+- Python - version 3.8.8
+- Keras - version 2.6.0
+- TensorFlow - version 2.6.0
+- Benchmark Simulation Model no. 2 (BSM2)
 
 
 ## Screenshots
