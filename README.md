@@ -2,8 +2,9 @@
 The objective of this work is to use Artificial Neural Networks, more specifically Autoencoders, to design a fault 
 detection system for the dissolved oxygen (DO) sensor, present in the aeration system of the biological reactor of a 
 wastewater treatment plant (WWTP).
+
 ## Table of Contents
-* [General Info](#general-information)
+* [General Information](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
 * [Screenshots](#screenshots)
@@ -17,7 +18,7 @@ wastewater treatment plant (WWTP).
 
 
 ## General Information
-- Provide general information about your project here.
+- This work originated a paper that was presented at the 7th Workshop on Data Science for Social Good - [SoGood 2022](https://sites.google.com/view/ecmlpkddsogood2022/home?pli=1), 19-23 September 2022, in Grenoble, France.
 - What problem does it (intend to) solve?
 - What is the purpose of your project?
 - Why did you undertake it?
