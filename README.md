@@ -54,7 +54,7 @@ wastewater treatment plant (WWTP).
 
 ## Setup
 * The programs were developed in Python, with the help of Jupyter Notebook. The data used, with the implemented faults, were obtained through the BSM2 simulator implemented in Matlab/Simulink. 
-* To obtain the dataset with the failures, for each of the scenarios, install the BSM2 simulator and run the model Matlab/Simulink "FCUP_BSM2". More information about the BSM2 simulator, its installation and operation can be found here https://github.com/wwtmodels and here https://wwtmodels.pubpub.org.
+* To obtain the dataset with the failures, for each of the scenarios, install the BSM2 simulator and run the model Matlab/Simulink "FCUP_BSM2". More information about the BSM2 simulator, its installation and operation can be found [here](https://github.com/wwtmodels) and [here](https://wwtmodels.pubpub.org).
 * The datasets with implemented faults are in the Datasets folder.
 * To get the fault detection results for the first scenario, according to the convolutional autoencoder, you should run the notebook "autoencoder_conv1". To get the results, in the same scenario, for the LSTM autoencoder you should run the notebook "autoencoder_lstm_1". For scenarios 2 and 3, you must run the notebooks indicated by the number in the name.
 * When running the notebooks new models will be trained. To obtain the same results presented in the paper, you must use the trained models that are in the “models” folder.
