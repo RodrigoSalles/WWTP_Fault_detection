@@ -8,7 +8,6 @@ wastewater treatment plant (WWTP).
 * [Technologies Used](#technologies-used)
 * [Results](#Results)
 * [Setup](#setup)
-* [Usage](#usage)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
@@ -54,44 +53,34 @@ wastewater treatment plant (WWTP).
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+* The programs were developed in Python, with the help of Jupyter Notebook. The data used, with the implemented faults, were obtained through the BSM2 simulator implemented in Matlab/Simulink. 
+* To obtain the dataset with the failures, for each of the scenarios, install the BSM2 simulator and run the model Matlab/Simulink FCUP_BSM2. More information about the BSM2 simulator, its installation and operation can be found here https://github.com/wwtmodels and here https://wwtmodels.pubpub.org.
+* The datasets with implemented faults are in the Datasets folder.
+* To get the fault detection results for the first scenario, according to the convolutional autoencoder, you should run the notebook "autoencoder_conv1". To get the results, in the same scenario, for the LSTM autoencoder you should run the notebook "autoencoder_lstm_1". For scenarios 2 and 3, you must run the notebooks indicated by the number in the name.
+* When running the notebooks new models will be trained. To obtain the same results presented in the paper, you must use the trained models that are in the “models” folder.
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
-
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+The project was completed, and the results were presented in the aforementioned paper.
 
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
+* The use of other models of autoencoders can improve the results of the considered evaluation metrics.
+* The combination of statistical methods with machine learning models can reduce the delay in detecting failures.
 
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+* This research was supported by the ERDF and national funds through the project "PLATAFORMA DE ESTIMAÇÃO, CONTROLO E OTIMIZAÇÃO DE ESTAÇÕES DE TRATAMENTO DE ÁGUAS RESIDUAIS" - SYNAPPS (CENTRO-01-0247-FEDER-046978), and by Fundação para a Ciência e a Tecnologia (FCT) under the project UIDB/00048/2020.
+* Institute of Systems and Robotic - [ISR](https://www.isr.uc.pt/). 
+* DEEC - University of Coimbra - Portugal.
+* Faculty of Sciences of the University of Porto - [FCUP](https://sigarra.up.pt/fcup/pt/web_page.inicial).
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Rodrigo Salles. Email: engenharia.salles@gmail.com 
 
+...feel free to contact me!
 
 <!-- Optional -->
 <!-- ## License -->
