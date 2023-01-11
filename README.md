@@ -24,6 +24,8 @@ wastewater treatment plant (WWTP).
 
 - The objective of this work is to develop a real time fault detection system for the DO sensor of a WWTP biological reactor. 
 
+- To better evaluate the performance of the Autoencoders three scenarios were considered with variations in the order of appearance, duration and intensity of failures.
+
 - ANN models used for fault detection:
    * Convolutional Autoencoder
    * Long short term memory (LSTM)
