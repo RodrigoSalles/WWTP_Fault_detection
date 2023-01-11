@@ -20,8 +20,9 @@ wastewater treatment plant (WWTP).
 
 - The work described here had its origin in the elaboration of the dissertation for the conclusion of the master's course in Data Science at the [Faculty of Sciences](https://sigarra.up.pt/fcup/pt/web_page.inicial) of the [University of Porto](https://www.up.pt/portal/pt/) - Portugal. The dissertation can be found [here](https://repositorio-aberto.up.pt/bitstream/10216/146754/2/597464.pdf). 
 
-- This work originated a paper that was presented at the 7th Workshop on Data Science for Social Good - [SoGood 2022](https://sites.google.com/view/ecmlpkddsogood2022/home?pli=1), 19-23 September 2022, in Grenoble, France. 
-- The objective of this work is to develop a fault detection system for the DO sensor of a WWTP biological reactor. The paper can be seen [here](https://github.com/RodrigoSalles/WWTP_Fault_detection/blob/master/SoGood_2022.pdf).
+- This work originated a paper that was presented at the 7th Workshop on Data Science for Social Good - [SoGood 2022](https://sites.google.com/view/ecmlpkddsogood2022/home?pli=1), 19-23 September 2022, in Grenoble, France. The paper can be seen [here](https://github.com/RodrigoSalles/WWTP_Fault_detection/blob/master/SoGood_2022.pdf).
+- 
+- The objective of this work is to develop a fault detection system for the DO sensor of a WWTP biological reactor. 
 
 - ANN models used for fault detection:
    * Convolutional Autoencoder
