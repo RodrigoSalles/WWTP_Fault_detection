@@ -1,5 +1,5 @@
 # Fault Detection in Wastewater Treatment Plants: Application of Autoencoders with Streaming Data
-The objective of this work is to use Artificial Neural Networks (ANN), more specifically Autoencoders, to design a fault 
+The objective of this work is to use Artificial Neural Networks (ANN), more specifically Autoencoders, to design a real time fault 
 detection system for the dissolved oxygen (DO) sensor, present in the aeration system of the biological reactor of a 
 wastewater treatment plant (WWTP).
 
