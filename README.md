@@ -22,7 +22,7 @@ wastewater treatment plant (WWTP).
 
 - This work originated a paper that was presented at the 7th Workshop on Data Science for Social Good - [SoGood 2022](https://sites.google.com/view/ecmlpkddsogood2022/home?pli=1), 19-23 September 2022, in Grenoble, France. This paper can be found [here](https://github.com/RodrigoSalles/WWTP_Fault_detection/blob/master/SoGood_2022.pdf).
 
-- The objective of this work is to develop a fault detection system for the DO sensor of a WWTP biological reactor. 
+- The objective of this work is to develop a real time fault detection system for the DO sensor of a WWTP biological reactor. 
 
 - ANN models used for fault detection:
    * Convolutional Autoencoder
